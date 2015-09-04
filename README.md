@@ -1,7 +1,7 @@
 JWTTokenCreator
 =================
 
-Simple JWT token creator for debugging and testing purposes.
+Simple JSON (JWT) token creator for debugging and testing purposes. Can be invoked via the commandline for automated purposes. If invoked without arguments then you can enter these on the commandline. The generated JWT token is copied to the clipboard. 
 
 Usage
 =================
