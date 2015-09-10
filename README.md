@@ -1,21 +1,34 @@
 JWTTokenCreator
 =================
-
-Simple JSON (JWT) token creator for debugging and testing purposes. Can be invoked via the commandline for automated purposes. If invoked without arguments then you can enter these on the commandline. The generated JWT token is copied to the clipboard. 
+Simple JWT token creator for testing and debugging JWT tokens. Can encode and decode JWT tokens.
+Can be invoked from the commandline as follows:
 
 Usage
 =================
+To encode a token:
+JWTTokenCreator.exe 1 "username" "sharedkey"
 
-Can be invoked from the commandline as follows:
+where
+"username" is the username to encode
+"sharedkey" is the key to encode the token
 
-JWTTokenCreator.exe "username" "sharedkey"
+If invoked without arguments then the username and sharedkey can be entered on the commandline manually.
+The token that is created is copied to the clipboard.
 
-If invoked without arguments then the "username" and "sharedkey" can be entered on the commandline manually.
+To decode a token:
+JWTTokenCreator.exe 2 "jsontoken" "sharedkey"
+
+where
+"jsontoken" is the encoded token to decode
+"sharedkey" is the key to decode the token (or they key that originally encoded the token)
+
+If invoked without arguments then the JSON token and sharedkey can be entered on the commandline manually.
+The token that is decoded is copied to the clipboard.
 
 Notes
 =================
+The token that is encoded / decoded is copied to the clipboard.
 
-The token that is created is copied to the clipboard.
 
 
 
