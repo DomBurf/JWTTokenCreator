@@ -50,9 +50,12 @@
     <Reference Include="JWT">
       <HintPath>.\JWT.dll</HintPath>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="Newtonsoft.Json">
       <HintPath>.\Newtonsoft.Json.dll</HintPath>
     </Reference>
+=======
+>>>>>>> c5bdfc677d68371661aeb10b6a9efce92ca2e1ef
     <Reference Include="System" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Windows.Forms" />
